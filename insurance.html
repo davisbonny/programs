@@ -1,0 +1,29 @@
+<script>
+	Name = prompt("Enter the name");
+	Gender = prompt("Enter the gender Male or Female");
+	Age = Number(prompt("Enter the age"));
+	City = prompt("Enter Metro or Non Metro");
+	if(Age>=25 && Age<=45)
+	{
+	   if(Gender==="Male" && Age <= 35 && City==="Metro")
+	      {
+              document.write("Premium = "+6+"%");
+	      }
+	   if(Gender==="Male" && Age <= 40 && City==="Non Metro")
+	      {
+	 	     document.write("Premium = "+4+"%");
+	      }
+	   if(Gender==="Female" && Age <= 42 && City==="Metro")
+	      {
+	 	     document.write("Premium = "+3+"%");
+	      } 
+	   if(Gender==="Female" && Age <=45 && City==="Non Metro")
+	      {
+	 	     document.write("Premium = "+2+"%");
+	      }
+	}
+	   else
+	 	  {
+	 	   	document.write("Not insured");
+	 	  } 	
+</script>
