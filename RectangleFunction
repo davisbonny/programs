@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+    <input type = "text" placeholder = "mtr or cm"id = "dimensions"><br>
+    <input type = "text" placeholder = "length" id = "length"><br>
+    <input type = "text" placeholder = "breadth" id = "breadth"><br>
+    <input type = "button" value = "Area and Perimeter" onclick = "ss()"><br>
+    <input type = "text" placeholder = "Area" id = "Area">
+    <input type = "text" placeholder = "dimension" id = "dimension"><br>
+    <input type = "text" placeholder = "Perimeter" id = "Perimeter">
+    <input type = "text" placeholder = "dimen" id = "dimen"><br>
+    </form>
+    <script>
+            function ss()
+            {
+                 dimensions = document.getElementById("dimensions").value
+                 length = Number(document.getElementById("length").value);
+                 breadth = Number(document.getElementById("breadth").value);
+                 Area = length*breadth;
+                 Perimeter = (length+breadth)*2;
+                 document.getElementById("dimension").value = "Sq"+document.getElementById("dimensions").value
+                 document.getElementById("Area").value = Area;
+                 document.getElementById("Perimeter").value = Perimeter;
+                 document.getElementById("dimen").value = document.getElementById("dimensions").value
+            }
+    </script>
+</body>
+</html>

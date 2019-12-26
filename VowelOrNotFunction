@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+             <input type = "text" placeholder = "Enter the letter" id = "letter"><br>
+             <input type = "button" value = "VowelOrNot" onclick = "ss()"><br>
+             <input type = "text" placeholder  = "answer" id = "answer"><br>
+        </form>
+        <script>
+             function ss()
+                     {
+                        Letter = document.getElementById("letter").value;
+                        if(Letter==="a" || Letter==="e" || Letter==="i" || Letter==="o" || Letter==="u" || Letter==="A" || Letter==="E" || Letter==="I" || Letter==="O" || Letter==="U")
+		           {
+                               document.getElementById("answer").value = "Vowel";
+		           } 
+                              else
+		                  {
+			                  document.getElementById("answer").value = "Not a Vowel";
+		                  }
+                     }
+        </script>
+</body>
+</html>

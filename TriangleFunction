@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+    <input type = "text" placeholder = "FirstSide"id = "FirstSide"><br>
+    <input type = "text" placeholder = "SecondSide" id = "SecondSide"><br>
+    <input type = "text" placeholder = "ThirdSide" id = "ThirdSide"><br>
+    <input type = "button" value = "triangle isosceles/scalene/equilateral" onclick = "ss()"><br>
+    <input type = "text" placeholder = "answer" id = "answer">
+    </form>
+    <script>
+            function ss()
+            {
+                 FirstSide = Number(document.getElementById("FirstSide").value);
+                 SecondSide = Number(document.getElementById("SecondSide").value);
+                 ThirdSide = Number(document.getElementById("ThirdSide").value);
+                 if(FirstSide==SecondSide && FirstSide==ThirdSide)
+	           {
+                      document.getElementById("answer").value = "equilateral";
+	           } 
+                     else if(FirstSide==SecondSide || FirstSide==ThirdSide || SecondSide==ThirdSide)
+	                {
+                            document.getElementById("answer").value = "isosceles";
+	                } 
+                          else
+	                     {
+                                document.getElementById("answer").value = "scalene";
+	                     }
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+             <input type = "text" placeholder = "Basic Salary" id = "BasicSalary"><br>
+             <input type = "text" placeholder = "House Rent Allowance in %" id = "HRA"><br>
+             <input type = "text" placeholder = "Daily Allowance in %" id = "DA"><br>
+             <input type = "text" placeholder = "Travel Allowance in %" id = "TA"><br>
+             <input type = "text" placeholder = "Provident Fund" id = "PF"><br>
+             <input type = "button" value = "Net Salary" onclick = "ss()"><br>
+             <input type = "text" placeholder  = "answer" id = "answer"><br>
+        </form>
+        <script>
+             function ss()
+                     {
+                        BS = Number(document.getElementById("BasicSalary").value);
+                        HRA = Number(document.getElementById("HRA").value);
+                        DA = Number(document.getElementById("DA").value);
+                        TA = Number(document.getElementById("TA").value);
+                        PF = Number(document.getElementById("PF").value);
+                        NetSalary = BS + BS*(HRA/100) + BS*(DA/100) + BS*(TA/100) - PF;
+                        document.getElementById("answer").value =NetSalary ;
+                     }
+        </script>
+</body>
+</html>

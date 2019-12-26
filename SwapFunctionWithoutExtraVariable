@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+    <input type = "text" placeholder = "A" id="A"><br>
+    <input type = "text" placeholder = "B" id="B"><br>
+    <input type = "button" value = "Swap" onclick = "ss()"><br>
+    <input type = "text" placeholder = "c" id = "c"><br>
+    <input type = "text" placeholder = "d" id = "d"><br>
+    </form>
+    <script>
+            function ss()
+            {
+              A = Number(document.getElementById("A").value)+Number(document.getElementById("B").value);
+              B = A-Number(document.getElementById("B").value);
+              A = A-B;
+              document.getElementById("c").value = A;
+              document.getElementById("d").value = B;
+              
+            }
+    </script>
+</body>
+</html>

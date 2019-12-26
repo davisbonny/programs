@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+             <input type = "text" placeholder = "Enter the number" id = "number"><br>
+             <input type = "button" value = "PositiveOrNegative" onclick = "ss()"><br>
+             <input type = "text" placeholder  = "answer" id = "answer"><br>
+        </form>
+        <script>
+             function ss()
+                     {
+                        number = Number(document.getElementById("number").value);
+                        if(number>=0)
+                            {
+                               document.getElementById("answer").value = "Positive";
+                            } 
+                              else
+                                 {
+                                    document.getElementById("answer").value = "Negative";
+                                 }
+                     }
+        </script>
+</body>
+</html>

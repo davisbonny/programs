@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+    <input type = "text" placeholder = "Principle" id = "Principle"><br>
+    <input type = "text" placeholder = "AnnualInterest" id = "AnnualInterest"><br>
+    <input type = "text" placeholder = "years" id = "years"><br>
+    <input type = "button" value = "SimpleInterest" onclick = "ss()"><br>
+    <input type = "text" placeholder = "answer" id = "answer">
+    </form>
+    <script>
+          function ss()
+          {
+              P = Number(document.getElementById("Principle").value);
+              I = Number(document.getElementById("AnnualInterest").value);
+              N = Number(document.getElementById("years").value);
+              SI = P*(I/100)*N;
+              document.getElementById("answer").value= SI;
+          }
+    </script>
+</body>
+</html>
