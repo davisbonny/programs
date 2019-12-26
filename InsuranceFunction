@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+             <input type = "text" placeholder = "Name" id = "Name"><br>
+             <input type = "text" placeholder = "Male or Female" id = "Gender"><br>
+             <input type = "text" placeholder = "Age" id = "Age"><br>
+             <input type = "text" placeholder = "Metro or Non Metro" id = "City"><br>
+             <input type = "button" value = "Premium" onclick = "ss()"><br>
+             <input type = "text" placeholder  = "answer" id = "answer"><br>
+        </form>
+        <script>
+             function ss()
+                     {
+                        Name = document.getElementById("Name").value;
+                        Gender = document.getElementById("Gender").value;
+                        Age = Number(document.getElementById("Age").value);
+                        City = document.getElementById("City").value;
+                        if(Gender==="Male")
+	                     {
+	                        if(Age>=25 && Age <= 35 && City==="Metro")
+	                                {
+                                     document.getElementById("answer").value = "6%"
+	                                }
+                                    else
+	                        if(Age>=25 && Age <= 40 && City==="Non Metro")
+	                                {
+	 	                             document.getElementById("answer").value = "4%"
+	                                }
+                          } else
+                               {
+                                   document.getElementById("answer").value = "Not Insured";
+                               }
+                          if(Gender==="Female")
+	                     {
+	                        if(Age>=25 && Age <= 42 && City==="Metro")
+	                                {
+                                     document.getElementById("answer").value = "3%"
+	                                }
+                                    else
+	                        if(Age>=25 && Age <= 45 && City==="Non Metro")
+	                                {
+	 	                             document.getElementById("answer").value = "2%"
+	                                }
+                          } else
+                              {
+                                  document.getElementById("answer").value = "Not Insured";
+                              }
+	                        
+                     }
+        </script>
+</body>
+</html>
