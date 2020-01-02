@@ -1,0 +1,36 @@
+@charset "utf-8";
+.a1{
+      width:1900px;
+      height:200px;
+      background-color:black;
+    }
+.a2{
+      width:1900px;
+      height:750px;
+      background-color:grey;
+    }
+.b1{
+      width:300px;
+      padding-left:40px;
+      padding-top:20px;
+      height:70px;
+      line-height:50px;
+      text-align:left;
+      font-size:45px;
+      line-height:50px;
+      color:white;
+      background-color:brown;
+
+    }
+.b2{
+      width:300px;
+      height:40px;
+      padding-left:40px;
+      text-align:left;
+      font-size:15px;
+      line-height:50px;
+      color:white;
+      background-color:blue;
+
+    }
+
