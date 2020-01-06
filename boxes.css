@@ -1,0 +1,18 @@
+@charset utf-8;
+.main{
+      width:600px;
+      height:610px;
+      background:lightblue;
+     }
+.box{
+      width:265px;
+      height:170px;
+      margin-top:10px;
+      margin-left:10px;
+      padding:10px;
+      float:left;
+      background:darkblue;
+      color:white;
+     }
+
+

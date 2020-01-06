@@ -1,0 +1,26 @@
+@charset "uft-8";
+
+.a1{
+      width:1000px;
+      height:200px;
+      background-color:red;
+}
+.a2{
+      width:1000px;
+      height:200px;
+      background-color:yellow;
+}
+.a3{
+      width:1000px;
+      height:200px;
+      background-color:black;
+}
+.a1:hover{
+      background-color:blue;
+}
+.a2:hover{
+      background-color:blue;
+}
+.a3:hover{
+      background-color:blue;
+}

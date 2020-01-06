@@ -1,0 +1,14 @@
+.main{
+      width:430px;
+      height:640px;
+      background-color:lightblue;
+     }
+.a1{
+      width:200px;
+      height:200px;
+      float:left;
+      margin-top:10px;
+      margin-left:10px;
+      background-color:darkblue;
+     }
+
