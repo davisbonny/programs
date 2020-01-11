@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.a{
+    width:600px;
+	height:600px;
+	background-color:black;
+	background-image:url(redjavaicon128.jpg);
+	background-position:center center;
+	/* 
+	position  
+	top left
+	top center
+	top right
+	center left
+	center center
+	center right
+	bottom left
+	bottom center
+	bottom right
+	100px 200px
+	*/
+}

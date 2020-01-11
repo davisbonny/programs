@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+        width:600px;
+		height:600px;
+		background-color:rgb(60,60,60);
+		background-image:url(javaicon.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+}
