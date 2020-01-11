@@ -7,5 +7,20 @@
 		background-image:url(redjavaicon128.jpg),url(redjavaicon128.jpg),url(redjavaicon128.jpg),url(redjavaicon128.jpg),url(redjavaicon128.jpg);
 		background-repeat:no-repeat;
 		background-position:top left, top right, bottom left, bottom right, center center;
+		/* 
+	position  
+	top left
+	top center
+	top right
+	center left
+	center center
+	center right
+	bottom left
+	bottom center
+	bottom right
+	100px 200px
+	
+	Also you can put different images just put their urls
+	*/
 }
 
