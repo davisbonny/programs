@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.a{
+	width:300px;
+	height:100px;
+	float:left;
+	background-color:red;
+}
+.b{
+	width:200px;
+	height:600px;
+	background-color:yellow;
+	position:relative;
+	left:300px;
+	display:none;
+}
+.c{
+	width:600px;
+	height:100px;
+	float:left;
+	background-color:pink;
+}
+.a:hover .b{
+	display:block;
+}
