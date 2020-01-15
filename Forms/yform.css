@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding-top:50px;
+	background-color:rgb(30,30,30);
+}
+.main{
+	  width:1300px;
+	  height:850px;
+	  margin:0 auto;
+}
+.a{
+	  width:1300px;
+	  height:50px;
+	  background-color:rgb(60,60,60);
+}
+.b{
+	  width:1290px;
+	  height:760px;
+	  padding-top:40px;
+	  padding-left:10px;
+	  background-color:rgb(300,300,300);
+}
+.c{
+	  width:1290px;
+	  height:750px;
+	  float:left;
+}
+.d{
+	 width:1290px;
+	 height:125px;
+	 background-color:rgb(180,180,180);
+}
+.e{
+	 width:1290px;
+	 height:600px;
+}
+.f{
+	 width:625px;
+	 height:570px;
+	 padding-left:20px;
+	 padding-top:30px;
+	 font-size:30px;
+	 float:left;
+	 background-color:rgb(180,180,180);
+}
+.g{
+	 width:645px;
+	 height:600px;
+	 float:left;
+     background-color:rgb(180,180,180);
+}
+.textbox{
+	width:500px;
+	height:40px;
+	font-size:20px;
+	margin-top:30px;
+}
+.h{
+	 width:645px;
+	 height:200px;
+	 float:left;
+	 margin-top:20px;
+}
+.registerbox{
+	width:200px;
+	height:50px;
+	font-size:20px;
+	margin-left:307px;
+}
+.i{
+	 width:590px;
+	 height:480px;
+	 float:left;
+	 padding-top:20px;
+	 padding-left:10px;
+	 font-size:40px;
+     background-color:cadetblue;
+}
+.j{
+	 width:350px;
+	 height:190px;
+	 float:left;
+	 font-size:25px;
+	 padding-top:10px;
+	 margin-top:20px;
+
+}
+.k{
+	 width:200px;
+	 height:200px;
+	 float:left;
+	 margin-top:20px;
+
+}
+.LoginBox{
+	   width:155px;
+	   height:50px;
+	   font-size:20px;
+	   border:5px solid red;
+	   
+}
+.l{
+	width:150px;
+	height:50px;
+	padding-top:10px;
+	padding-left:10px;
+	font-size:20px;
+	text-decoration: underline;
+}
+.x{
+	font-size:40px;
+}
+.y{
+	font-size:20px;
+}

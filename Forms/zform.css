@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:rgb(30,30,30);
+	padding-top:50px;
+}
+.a{
+	width:1500px;
+	height:900px;
+	margin:0 auto;
+}
+.b{
+	width:400px;
+	height:900px;
+	float:left;
+	background-color:black;
+}
+.c{
+	width:1020px;
+	height:860px;
+	padding-left:80px;
+	padding-top:40px;
+	float:left;
+	background-color:rgb(60,60,60);
+}
+.d{
+	width:1020px;
+	height:150px;
+	font-size:120px;
+	
+}
+.e{
+	width:400px;
+	height:240px;
+	float:left;
+}
+.f{
+	width:500px;
+	height:240px;
+	float:left;
+}
+.x{
+	font-size:35px;
+}
+.y{
+	font-size:25px;
+}
+.textbox{
+	width:495px;
+	height:50px;
+	text-align:left;
+	font-size:20px;
+	margin-bottom:5px;
+}
+.g{
+	width:900px;
+	height:460px;
+	padding-top:10px;
+	float:left;
+}
+.z{
+	font-size:30px;
+}
+.smallbox{
+	width:383px;
+	height:50px;
+	text-align:left;
+	font-size:20px;
+	margin-bottom:5px;
+	margin-right:10px;
+	float:left;
+}
+.bigbox{
+	width:895px;
+	height:50px;
+	text-align:left;
+	font-size:20px;
+	margin-bottom:5px;
+}
+.biggerbox{
+	width:895px;
+	height:100px;
+	text-align:left;
+	font-size:20px;
+	margin-bottom:5px;
+}
+.messagebox{
+	width:300px;
+	height:50px;
+	text-align:left;
+	font-size:20px;
+	margin-bottom:5px;
+}
+.b1{
+	width:400px;
+	height:260px;
+	padding-top:40px;
+	color:white;
+	text-align:center;
+}
+.logo{
+	font-size:40px;
+		
+}
+.logo2{
+	font-size:20px;
+	text-align:center;
+}
+.logo3{
+	font-size:35px;
+	text-align:center;
+}
+.b2{
+	width:400px;
+	height:400px;
+	padding-top:40px;
+	color:white;
+	text-align:center;
+}
+.word{
+	font-size:25px;
+}
