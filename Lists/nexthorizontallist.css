@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+	width:200px;
+	height:250px;
+	position:relative;
+}
+ul{
+	padding:0;
+	margin:0;
+	width:200px;
+	height:250px;
+	background-color:lightgreen;
+}
+li{
+	width:198px;
+	height:48px;
+	border:1px solid red;
+	text-align:center;
+	line-height: 48px;
+	list-style-type: none;
+}
+.submenu{
+	width:1000px;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:200px;
+	display:none;
+}
+ul li:hover .submenu{
+	display:block;
+}
+.bc1{
+	background-color:deeppink;
+}
+.bc2{
+	background-color:lightblue;
+}
+.bc3{
+	background-color:lightcoral;
+}
+.bc4{
+	background-color:darkgoldenrod;
+}
+.bc5{
+	background-color:dimgray;
+}
+li:nth-child(1):hover{
+	width:200px;
+	height:50px;
+	background-color:deeppink;
+	border:none;
+}
+li:nth-child(2):hover{
+	width:200px;
+	height:50px;
+	background-color:lightblue;
+	border:none;
+}
+li:nth-child(3):hover{
+	width:200px;
+	height:50px;
+	background-color:lightcoral;
+	border:none;
+}
+li:nth-child(4):hover{
+	width:200px;
+	height:50px;
+	background-color:darkgoldenrod;
+	border:none;
+}
+li:nth-child(5):hover{
+	width:200px;
+	height:50px;
+	background-color:dimgray;
+	border:none;
+}
